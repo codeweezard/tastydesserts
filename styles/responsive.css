@@ -1,0 +1,90 @@
+@media screen and (min-width: 768px) {
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  nav li {
+    flex: 1 1 0;
+  }
+
+  nav .icon {
+    display: none;
+  }
+
+  .nav-items {
+    display: initial;
+  }
+
+  h3.animate {
+    text-align: center;
+    padding-top: 250px;
+    animation: upToDown 2s ease-in-out 2s forwards;
+    opacity: 0;
+  }
+
+  section .content1 {
+    display: flex;
+  }
+
+  section img[alt="desserts"] {
+    width: 40%;
+    height: 300px;
+  }
+
+  section .wrap {
+    width: 50;
+    margin: auto;
+  }
+
+  ul.flex {
+    flex-direction: row;
+  }
+
+  .set {
+    display: flex;
+  }
+
+  #article {
+      justify-content: space-between;
+      flex-direction: row;
+  }
+
+  #article div {
+    width: 50%;
+    padding-top: 5rem;
+  }
+
+  #article img[alt="images"] {
+    width: 40%;
+  }
+
+  /* contact us page styling */
+  form {
+    height: 100%;
+    padding: 30px 50px;
+    flex-direction: row;
+  }
+
+  .form-details,
+  .form-message {
+    width: 50%;
+    padding: 20px;
+  }
+
+
+
+  #something .flex {
+    justify-content: space-around;
+    flex-direction: row;
+  }
+  
+  #something h2, #something p {
+    padding: 15px;
+  }
+}

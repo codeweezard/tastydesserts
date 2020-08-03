@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+
+    <link rel="stylesheet" href="./styles/font-awesome.css">
+
+    <!-- A style sheet i created myself since i stoped using bootstrap -->
+    <link rel="stylesheet" href="./styles/built.css" />
+
+    <!-- the main file css for mobile devices -->
+    <link rel="stylesheet" href="./styles/index.css" />
+
+    <!-- link to media queries of th site -->
+    <link rel="stylesheet" href="./styles/responsive.css" />
+    <!-- <link rel="stylesheet" href="./styles/animation.css" /> -->
+</head>
+
+<body>
+    <header>
+        <nav id="myNav">
+            <div class="space">
+                <ul class="current">
+                    <li>
+                        <a href="#">Just Practice</a>
+                    </li>
+                </ul>
+                <div class="icon nav-link-toggle">
+                    <i class="fa fa-bars"></i>
+                </div>
+            </div>
+
+            <div class="nav-items">
+                <ul>
+                    <li>
+                        <a href="./index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="./contact.html">Contact</a>
+                    </li>
+                    <li>
+                        <a href="./service.html">Services</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div>
+        <div class="full-container" id="contact">
+            <h2>Wanna place some order.</h2>
+            <p> Place it here we're always available. Your satisfaction is our priority.</p>
+        </div>
+    </div>
+
+    <form action="" method="post" class="flex container">
+        <div class="form-details">
+            <label for="name">Name: </label>
+            <input type="text" placeholder="name" class="" required />
+            <label for="email">Email: </label>
+            <input type="email" placeholder="enter your email" required />
+            <label for="Subject">Subject: </label>
+            <input type="text" placeholder="enter your subject" required />
+        </div>
+        <div class="form-details">
+            <label for="message">Message: </label>
+            <textarea name="message" id="" cols="30" rows="10" placeholder="enter your message here "></textarea>
+            <input type="submit" value="Send" class="submit">
+        </div>
+    </form>
+
+    <footer class="bg-black">
+        <div class="container">
+            <p>&copy; Designed by CodeWeezard</p>
+        </div>
+    </footer>
+</body>
+
+</html>

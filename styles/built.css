@@ -1,0 +1,35 @@
+/* bacic Reuseable colors */
+
+.bg-blue {
+    background-color: rgb(2, 2, 71);
+    color: white;
+}
+
+.bg-black {
+    background-color: rgb(0, 0, 7);
+    color: white;
+}
+
+.white-text {
+    color: whitesmoke;
+}
+
+/* basic box styling classes */
+
+.full-container {
+    width: 100%;
+}
+
+.container {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
